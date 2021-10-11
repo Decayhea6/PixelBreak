@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Pixel_Deal_Menu_Rustic.ogg-3b2b3639114b09fdbe7521ab65f71110.oggstr"
+
+[deps]
+
+source_file="res://Music/Pixel_Deal_Menu_Rustic.ogg"
+dest_files=[ "res://.import/Pixel_Deal_Menu_Rustic.ogg-3b2b3639114b09fdbe7521ab65f71110.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

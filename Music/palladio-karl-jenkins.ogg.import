@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/palladio-karl-jenkins.ogg-d612bae87349891263dfbb1e95939d04.oggstr"
+
+[deps]
+
+source_file="res://Music/palladio-karl-jenkins.ogg"
+dest_files=[ "res://.import/palladio-karl-jenkins.ogg-d612bae87349891263dfbb1e95939d04.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

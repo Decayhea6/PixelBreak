@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Creaky Inn.ogg-2dd7ac114a5e69040020e5eb20c13a31.oggstr"
+
+[deps]
+
+source_file="res://Music/Creaky Inn.ogg"
+dest_files=[ "res://.import/Creaky Inn.ogg-2dd7ac114a5e69040020e5eb20c13a31.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

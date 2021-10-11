@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bubulegum.ogg-e9cc5b73f7d805f553f83e5417e58591.oggstr"
+
+[deps]
+
+source_file="res://Music/bubulegum.ogg"
+dest_files=[ "res://.import/bubulegum.ogg-e9cc5b73f7d805f553f83e5417e58591.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

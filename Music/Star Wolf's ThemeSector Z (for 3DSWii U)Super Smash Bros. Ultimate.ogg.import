@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Star Wolf's ThemeSector Z (for 3DSWii U)Super Smash Bros. Ultimate.ogg-51bcc8705b582a30729291a2058b4b37.oggstr"
+
+[deps]
+
+source_file="res://Music/Star Wolf's ThemeSector Z (for 3DSWii U)Super Smash Bros. Ultimate.ogg"
+dest_files=[ "res://.import/Star Wolf's ThemeSector Z (for 3DSWii U)Super Smash Bros. Ultimate.ogg-51bcc8705b582a30729291a2058b4b37.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,191 @@
+[gd_scene load_steps=16 format=2]
+
+[sub_resource type="Gradient" id=1]
+offsets = PoolRealArray( 0, 0.666667 )
+colors = PoolColorArray( 1, 1, 1, 1, 0.425293, 0.425293, 0.425293, 1 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[sub_resource type="Curve" id=3]
+min_value = -200.0
+max_value = 200.0
+_data = [ Vector2( 0.0706434, 200 ), 0.0, 636.833, 0, 0, Vector2( 0.164321, 63.36 ), -2246.48, -2246.48, 0, 0, Vector2( 0.244121, -130.24 ), -1331.59, -1331.59, 0, 0, Vector2( 0.374229, -179.52 ), 49.4901, 49.4901, 0, 0, Vector2( 0.539033, -176 ), 0.0, 0.0, 0, 0, Vector2( 0.693427, -168.96 ), 0.0, 0.0, 0, 0, Vector2( 1, -116.16 ), 1364.22, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=4]
+curve = SubResource( 3 )
+
+[sub_resource type="Curve" id=5]
+max_value = 5.0
+_data = [ Vector2( 0, 5 ), 0.0, 0.0, 0, 0, Vector2( 0.317196, 3.424 ), 0.0, 0.0, 0, 0, Vector2( 0.692119, 2.72 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=6]
+curve = SubResource( 5 )
+
+[sub_resource type="ParticlesMaterial" id=7]
+emission_shape = 1
+emission_sphere_radius = 2.0
+flag_disable_z = true
+spread = 180.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 200.0
+initial_velocity_random = 0.5
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 100.0
+linear_accel_random = 0.2
+linear_accel_curve = SubResource( 4 )
+scale = 5.0
+scale_random = 1.0
+scale_curve = SubResource( 6 )
+color_ramp = SubResource( 2 )
+
+[sub_resource type="Animation" id=8]
+resource_name = "Aqua"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.266667, 1, 0.772549, 1 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "Blue"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.219608, 0.501961, 0.996078, 1 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "Green"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.282353, 0.905882, 0.470588, 1 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "Orange"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.752941, 0.462745, 1 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "Pink"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.639216, 0.768627, 1 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "Purple"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.862745, 0.619608, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+resource_name = "Red"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.443137, 0.490196, 1 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "Yellow"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 0.4, 1 ) ]
+}
+
+[node name="Death" type="Particles2D"]
+self_modulate = Color( 0.266667, 1, 0.772549, 1 )
+scale = Vector2( 0.7, 0.7 )
+emitting = false
+amount = 150
+lifetime = 0.8
+one_shot = true
+speed_scale = 0.7
+explosiveness = 0.5
+randomness = 0.05
+process_material = SubResource( 7 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Aqua = SubResource( 8 )
+anims/Blue = SubResource( 9 )
+anims/Green = SubResource( 10 )
+anims/Orange = SubResource( 11 )
+anims/Pink = SubResource( 12 )
+anims/Purple = SubResource( 13 )
+anims/Red = SubResource( 14 )
+anims/Yellow = SubResource( 15 )

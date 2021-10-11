@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scripts/Scenes/PlaySplash.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Ui/PlayScreen1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Ui/PlayScreen2.png" type="Texture" id=3]
+[ext_resource path="res://m5x7.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 1.0
+} ]
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+outline_color = Color( 0.14902, 0.14902, 0.152941, 1 )
+font_data = ExtResource( 4 )
+
+[node name="PlaySplash" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = 3.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 515.295, 299.453 )
+scale = Vector2( 0.6, 0.634259 )
+frames = SubResource( 1 )
+frame = 1
+playing = true
+
+[node name="Label" type="Label" parent="."]
+margin_left = 14.0
+margin_top = 551.0
+margin_right = 243.0
+margin_bottom = 581.0
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.215686, 0.215686, 0.215686, 1 )
+text = "0 Controllers Connected"
+__meta__ = {
+"_edit_use_anchors_": false
+}

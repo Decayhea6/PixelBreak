@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/snape-lilys-theme-extended-soundtrack.ogg-1d170aa0b9604b7347021abd50b3c8df.oggstr"
+
+[deps]
+
+source_file="res://Music/snape-lilys-theme-extended-soundtrack.ogg"
+dest_files=[ "res://.import/snape-lilys-theme-extended-soundtrack.ogg-1d170aa0b9604b7347021abd50b3c8df.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

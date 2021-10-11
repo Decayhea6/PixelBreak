@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/2cellos-pirates-of-the-caribbean-official-video.ogg-0330d2ac854c2626916e9052a928c1ab.oggstr"
+
+[deps]
+
+source_file="res://Music/2cellos-pirates-of-the-caribbean-official-video.ogg"
+dest_files=[ "res://.import/2cellos-pirates-of-the-caribbean-official-video.ogg-0330d2ac854c2626916e9052a928c1ab.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

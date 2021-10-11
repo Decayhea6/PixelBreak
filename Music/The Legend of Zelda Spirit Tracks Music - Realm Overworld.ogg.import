@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/The Legend of Zelda Spirit Tracks Music - Realm Overworld.ogg-bd0068af1b11361f11dafa767490f5fe.oggstr"
+
+[deps]
+
+source_file="res://Music/The Legend of Zelda Spirit Tracks Music - Realm Overworld.ogg"
+dest_files=[ "res://.import/The Legend of Zelda Spirit Tracks Music - Realm Overworld.ogg-bd0068af1b11361f11dafa767490f5fe.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

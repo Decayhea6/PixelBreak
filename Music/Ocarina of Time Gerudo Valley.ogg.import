@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Ocarina of Time Gerudo Valley.ogg-2f0c9f1f3aaa2fbdba6876b7a7243f84.oggstr"
+
+[deps]
+
+source_file="res://Music/Ocarina of Time Gerudo Valley.ogg"
+dest_files=[ "res://.import/Ocarina of Time Gerudo Valley.ogg-2f0c9f1f3aaa2fbdba6876b7a7243f84.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
