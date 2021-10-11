@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/spacebroken.ogg-90cf9b1cbfd7d019586ae9e05626f73c.oggstr"
+
+[deps]
+
+source_file="res://Music/spacebroken.ogg"
+dest_files=[ "res://.import/spacebroken.ogg-90cf9b1cbfd7d019586ae9e05626f73c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

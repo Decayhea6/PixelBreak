@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/where the cats be at.ogg-d5a5b5d21f2b2122cba14927ccfc9a0b.oggstr"
+
+[deps]
+
+source_file="res://Music/where the cats be at.ogg"
+dest_files=[ "res://.import/where the cats be at.ogg-d5a5b5d21f2b2122cba14927ccfc9a0b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

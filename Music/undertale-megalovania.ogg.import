@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/undertale-megalovania.ogg-6fa16a1a1a9dfeba1e17abc3364b94ad.oggstr"
+
+[deps]
+
+source_file="res://Music/undertale-megalovania.ogg"
+dest_files=[ "res://.import/undertale-megalovania.ogg-6fa16a1a1a9dfeba1e17abc3364b94ad.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

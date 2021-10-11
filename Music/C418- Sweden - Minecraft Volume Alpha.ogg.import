@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/C418- Sweden - Minecraft Volume Alpha.ogg-507f3e7414bc98a505ff57d1362e8acb.oggstr"
+
+[deps]
+
+source_file="res://Music/C418- Sweden - Minecraft Volume Alpha.ogg"
+dest_files=[ "res://.import/C418- Sweden - Minecraft Volume Alpha.ogg-507f3e7414bc98a505ff57d1362e8acb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

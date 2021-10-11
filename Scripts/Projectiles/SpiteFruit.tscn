@@ -1,0 +1,62 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Sprites/Items/Food/Fruit.png" type="Texture" id=1]
+[ext_resource path="res://SpiteFruit.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 25.1213, 28.8423 )
+
+[sub_resource type="Gradient" id=2]
+offsets = PoolRealArray( 0.185185, 0.925926 )
+colors = PoolColorArray( 0.0527268, 0.00969315, 0.177246, 1, 1, 1, 1, 1 )
+
+[sub_resource type="GradientTexture" id=3]
+gradient = SubResource( 2 )
+
+[sub_resource type="ParticlesMaterial" id=4]
+emission_shape = 1
+emission_sphere_radius = 39.95
+flag_disable_z = true
+spread = 24.31
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 172.41
+initial_velocity_random = 0.37
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+angle = 90.0
+angle_random = 0.76
+scale = 18.5
+color_ramp = SubResource( 3 )
+
+[node name="SpiteFruit" type="Area2D"]
+scale = Vector2( 0.75, 0.75 )
+collision_layer = 2
+collision_mask = 2
+script = ExtResource( 2 )
+tilt_x = 0.0
+tilt_y = -1.0
+projectile_speed = 201
+flight_time = 20
+knockup = -300
+knockside = 0
+damage = 5
+air_time = 4.2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -1, 0 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0.750671, -3.04132 )
+scale = Vector2( 4, 4 )
+z_index = 1
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 3.04619, 18.3036, 11.2385, 11.2385 )
+
+[node name="Particles2D" type="Particles2D" parent="."]
+position = Vector2( -1.13953, 18.5321 )
+rotation = 1.5708
+scale = Vector2( 0.5, 0.5 )
+amount = 50
+process_material = SubResource( 4 )

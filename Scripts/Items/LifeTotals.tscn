@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="LifeTotals" type="VBoxContainer"]
+light_mask = 2
+margin_left = 930.0
+margin_top = -5.0
+margin_right = 1040.0
+margin_bottom = 599.0
+custom_constants/separation = 28
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}

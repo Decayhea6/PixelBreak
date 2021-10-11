@@ -1,0 +1,158 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Sprites/Ui/LifeBarClean.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Items/LifeBar.gd" type="Script" id=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Aqua"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.0470588, 0.85098, 0.627451, 1 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Blue"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.223529, 0.6, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "Green"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.188235, 0.952941, 0.560784, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.211765, 0.831373, 0.380392, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "Orange"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.764706, 0.435294, 1 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "Pink"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.917647, 0.764706, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "Purple"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.541176, 0.282353, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "Red"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.988235, 0.4, 0.4, 1 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "Yellow"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.996078, 0.752941, 1 ) ]
+}
+
+[node name="LifeBar" type="TextureProgress"]
+modulate = Color( 0.0470588, 0.85098, 0.627451, 1 )
+margin_right = 12.0
+margin_bottom = 12.0
+rect_scale = Vector2( 2.5, 2 )
+value = 100.0
+texture_progress = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Aqua = SubResource( 1 )
+anims/Blue = SubResource( 2 )
+anims/Green = SubResource( 3 )
+anims/Orange = SubResource( 4 )
+anims/Pink = SubResource( 5 )
+anims/Purple = SubResource( 6 )
+anims/Red = SubResource( 7 )
+anims/Yellow = SubResource( 8 )
